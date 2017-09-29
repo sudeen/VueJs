@@ -11,8 +11,7 @@
             <EventItem
             v-for="(event_item,index) in this.$store.state.events"
             :event="event_item"
-            :key="index"
-            />
+            :key="index"></EventItem>
         </div>
     </div>
 </template>
